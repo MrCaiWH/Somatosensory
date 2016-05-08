@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4FF443151CDEBD0C0066A6B9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FF443141CDEBD0C0066A6B9 /* main.m */; };
+		4FF443181CDEBD0C0066A6B9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FF443171CDEBD0C0066A6B9 /* AppDelegate.m */; };
+		4FF4431B1CDEBD0C0066A6B9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FF4431A1CDEBD0C0066A6B9 /* ViewController.m */; };
+		4FF4431E1CDEBD0C0066A6B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FF4431C1CDEBD0C0066A6B9 /* Main.storyboard */; };
+		4FF443201CDEBD0C0066A6B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FF4431F1CDEBD0C0066A6B9 /* Assets.xcassets */; };
+		4FF443231CDEBD0C0066A6B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FF443211CDEBD0C0066A6B9 /* LaunchScreen.storyboard */; };
+		4FF4432E1CDEBD0C0066A6B9 /* SomatosensoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FF4432D1CDEBD0C0066A6B9 /* SomatosensoryTests.m */; };
+		4FF443391CDEBD0C0066A6B9 /* SomatosensoryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FF443381CDEBD0C0066A6B9 /* SomatosensoryUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4FF4432A1CDEBD0C0066A6B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4FF443081CDEBD0C0066A6B9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4FF4430F1CDEBD0C0066A6B9;
+			remoteInfo = Somatosensory;
+		};
+		4FF443351CDEBD0C0066A6B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4FF443081CDEBD0C0066A6B9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4FF4430F1CDEBD0C0066A6B9;
+			remoteInfo = Somatosensory;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4FF443101CDEBD0C0066A6B9 /* Somatosensory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Somatosensory.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FF443141CDEBD0C0066A6B9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4FF443161CDEBD0C0066A6B9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4FF443171CDEBD0C0066A6B9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4FF443191CDEBD0C0066A6B9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4FF4431A1CDEBD0C0066A6B9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4FF4431D1CDEBD0C0066A6B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4FF4431F1CDEBD0C0066A6B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4FF443221CDEBD0C0066A6B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4FF443241CDEBD0C0066A6B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FF443291CDEBD0C0066A6B9 /* SomatosensoryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SomatosensoryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FF4432D1CDEBD0C0066A6B9 /* SomatosensoryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SomatosensoryTests.m; sourceTree = "<group>"; };
+		4FF4432F1CDEBD0C0066A6B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FF443341CDEBD0C0066A6B9 /* SomatosensoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SomatosensoryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FF443381CDEBD0C0066A6B9 /* SomatosensoryUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SomatosensoryUITests.m; sourceTree = "<group>"; };
+		4FF4433A1CDEBD0C0066A6B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4FF4430D1CDEBD0C0066A6B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FF443261CDEBD0C0066A6B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FF443311CDEBD0C0066A6B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4FF443071CDEBD0C0066A6B9 = {
+			isa = PBXGroup;
+			children = (
+				4FF443121CDEBD0C0066A6B9 /* Somatosensory */,
+				4FF4432C1CDEBD0C0066A6B9 /* SomatosensoryTests */,
+				4FF443371CDEBD0C0066A6B9 /* SomatosensoryUITests */,
+				4FF443111CDEBD0C0066A6B9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4FF443111CDEBD0C0066A6B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4FF443101CDEBD0C0066A6B9 /* Somatosensory.app */,
+				4FF443291CDEBD0C0066A6B9 /* SomatosensoryTests.xctest */,
+				4FF443341CDEBD0C0066A6B9 /* SomatosensoryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4FF443121CDEBD0C0066A6B9 /* Somatosensory */ = {
+			isa = PBXGroup;
+			children = (
+				4FF443161CDEBD0C0066A6B9 /* AppDelegate.h */,
+				4FF443171CDEBD0C0066A6B9 /* AppDelegate.m */,
+				4FF443191CDEBD0C0066A6B9 /* ViewController.h */,
+				4FF4431A1CDEBD0C0066A6B9 /* ViewController.m */,
+				4FF4431C1CDEBD0C0066A6B9 /* Main.storyboard */,
+				4FF4431F1CDEBD0C0066A6B9 /* Assets.xcassets */,
+				4FF443211CDEBD0C0066A6B9 /* LaunchScreen.storyboard */,
+				4FF443241CDEBD0C0066A6B9 /* Info.plist */,
+				4FF443131CDEBD0C0066A6B9 /* Supporting Files */,
+			);
+			path = Somatosensory;
+			sourceTree = "<group>";
+		};
+		4FF443131CDEBD0C0066A6B9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4FF443141CDEBD0C0066A6B9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4FF4432C1CDEBD0C0066A6B9 /* SomatosensoryTests */ = {
+			isa = PBXGroup;
+			children = (
+				4FF4432D1CDEBD0C0066A6B9 /* SomatosensoryTests.m */,
+				4FF4432F1CDEBD0C0066A6B9 /* Info.plist */,
+			);
+			path = SomatosensoryTests;
+			sourceTree = "<group>";
+		};
+		4FF443371CDEBD0C0066A6B9 /* SomatosensoryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4FF443381CDEBD0C0066A6B9 /* SomatosensoryUITests.m */,
+				4FF4433A1CDEBD0C0066A6B9 /* Info.plist */,
+			);
+			path = SomatosensoryUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4FF4430F1CDEBD0C0066A6B9 /* Somatosensory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FF4433D1CDEBD0C0066A6B9 /* Build configuration list for PBXNativeTarget "Somatosensory" */;
+			buildPhases = (
+				4FF4430C1CDEBD0C0066A6B9 /* Sources */,
+				4FF4430D1CDEBD0C0066A6B9 /* Frameworks */,
+				4FF4430E1CDEBD0C0066A6B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Somatosensory;
+			productName = Somatosensory;
+			productReference = 4FF443101CDEBD0C0066A6B9 /* Somatosensory.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4FF443281CDEBD0C0066A6B9 /* SomatosensoryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FF443401CDEBD0C0066A6B9 /* Build configuration list for PBXNativeTarget "SomatosensoryTests" */;
+			buildPhases = (
+				4FF443251CDEBD0C0066A6B9 /* Sources */,
+				4FF443261CDEBD0C0066A6B9 /* Frameworks */,
+				4FF443271CDEBD0C0066A6B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4FF4432B1CDEBD0C0066A6B9 /* PBXTargetDependency */,
+			);
+			name = SomatosensoryTests;
+			productName = SomatosensoryTests;
+			productReference = 4FF443291CDEBD0C0066A6B9 /* SomatosensoryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4FF443331CDEBD0C0066A6B9 /* SomatosensoryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4FF443431CDEBD0C0066A6B9 /* Build configuration list for PBXNativeTarget "SomatosensoryUITests" */;
+			buildPhases = (
+				4FF443301CDEBD0C0066A6B9 /* Sources */,
+				4FF443311CDEBD0C0066A6B9 /* Frameworks */,
+				4FF443321CDEBD0C0066A6B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4FF443361CDEBD0C0066A6B9 /* PBXTargetDependency */,
+			);
+			name = SomatosensoryUITests;
+			productName = SomatosensoryUITests;
+			productReference = 4FF443341CDEBD0C0066A6B9 /* SomatosensoryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4FF443081CDEBD0C0066A6B9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "黄花菜";
+				TargetAttributes = {
+					4FF4430F1CDEBD0C0066A6B9 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					4FF443281CDEBD0C0066A6B9 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 4FF4430F1CDEBD0C0066A6B9;
+					};
+					4FF443331CDEBD0C0066A6B9 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 4FF4430F1CDEBD0C0066A6B9;
+					};
+				};
+			};
+			buildConfigurationList = 4FF4430B1CDEBD0C0066A6B9 /* Build configuration list for PBXProject "Somatosensory" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4FF443071CDEBD0C0066A6B9;
+			productRefGroup = 4FF443111CDEBD0C0066A6B9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4FF4430F1CDEBD0C0066A6B9 /* Somatosensory */,
+				4FF443281CDEBD0C0066A6B9 /* SomatosensoryTests */,
+				4FF443331CDEBD0C0066A6B9 /* SomatosensoryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4FF4430E1CDEBD0C0066A6B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FF443231CDEBD0C0066A6B9 /* LaunchScreen.storyboard in Resources */,
+				4FF443201CDEBD0C0066A6B9 /* Assets.xcassets in Resources */,
+				4FF4431E1CDEBD0C0066A6B9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FF443271CDEBD0C0066A6B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FF443321CDEBD0C0066A6B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4FF4430C1CDEBD0C0066A6B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FF4431B1CDEBD0C0066A6B9 /* ViewController.m in Sources */,
+				4FF443181CDEBD0C0066A6B9 /* AppDelegate.m in Sources */,
+				4FF443151CDEBD0C0066A6B9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FF443251CDEBD0C0066A6B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FF4432E1CDEBD0C0066A6B9 /* SomatosensoryTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FF443301CDEBD0C0066A6B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FF443391CDEBD0C0066A6B9 /* SomatosensoryUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4FF4432B1CDEBD0C0066A6B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4FF4430F1CDEBD0C0066A6B9 /* Somatosensory */;
+			targetProxy = 4FF4432A1CDEBD0C0066A6B9 /* PBXContainerItemProxy */;
+		};
+		4FF443361CDEBD0C0066A6B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4FF4430F1CDEBD0C0066A6B9 /* Somatosensory */;
+			targetProxy = 4FF443351CDEBD0C0066A6B9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4FF4431C1CDEBD0C0066A6B9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4FF4431D1CDEBD0C0066A6B9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4FF443211CDEBD0C0066A6B9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4FF443221CDEBD0C0066A6B9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4FF4433B1CDEBD0C0066A6B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4FF4433C1CDEBD0C0066A6B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4FF4433E1CDEBD0C0066A6B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Somatosensory/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huanghuacai.Somatosensory;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4FF4433F1CDEBD0C0066A6B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Somatosensory/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huanghuacai.Somatosensory;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4FF443411CDEBD0C0066A6B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SomatosensoryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huanghuacai.SomatosensoryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Somatosensory.app/Somatosensory";
+			};
+			name = Debug;
+		};
+		4FF443421CDEBD0C0066A6B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SomatosensoryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huanghuacai.SomatosensoryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Somatosensory.app/Somatosensory";
+			};
+			name = Release;
+		};
+		4FF443441CDEBD0C0066A6B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SomatosensoryUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huanghuacai.SomatosensoryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Somatosensory;
+			};
+			name = Debug;
+		};
+		4FF443451CDEBD0C0066A6B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SomatosensoryUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huanghuacai.SomatosensoryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Somatosensory;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4FF4430B1CDEBD0C0066A6B9 /* Build configuration list for PBXProject "Somatosensory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FF4433B1CDEBD0C0066A6B9 /* Debug */,
+				4FF4433C1CDEBD0C0066A6B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4FF4433D1CDEBD0C0066A6B9 /* Build configuration list for PBXNativeTarget "Somatosensory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FF4433E1CDEBD0C0066A6B9 /* Debug */,
+				4FF4433F1CDEBD0C0066A6B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4FF443401CDEBD0C0066A6B9 /* Build configuration list for PBXNativeTarget "SomatosensoryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FF443411CDEBD0C0066A6B9 /* Debug */,
+				4FF443421CDEBD0C0066A6B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4FF443431CDEBD0C0066A6B9 /* Build configuration list for PBXNativeTarget "SomatosensoryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FF443441CDEBD0C0066A6B9 /* Debug */,
+				4FF443451CDEBD0C0066A6B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4FF443081CDEBD0C0066A6B9 /* Project object */;
+}
